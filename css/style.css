@@ -13,6 +13,8 @@
     justify-content: center;
 }
 
+/*დარჩენილი დროის დიზაინი */
+
 #clock2 {
     width: 700px;
     height: 100px;
@@ -24,3 +26,6 @@
     align-items: center;
     justify-content: center;
 }
+
+/*სლაიდების დიზაინი*/
+

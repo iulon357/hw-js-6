@@ -16,7 +16,20 @@ setInterval(displayTime, 10);
 //-------------------------------------------------------------------
 
 // დავალება 2:
+function first () {
+  document.getElementById("slideImage").src="img/2.jpg";
+}
 
+function second () {
+  document.getElementById("slideImage").src="img/3.jpg";
+}
+
+function fourth () {
+  document.getElementById("slideImage").src="img/4.jpg";
+}
+setInterval(first,5000);
+setInterval(second,10000);
+setInterval(fourth,15000);
 
 	
 
