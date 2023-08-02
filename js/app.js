@@ -31,8 +31,10 @@ setInterval(first,5000);
 setInterval(second,10000);
 setInterval(fourth,15000);
 
+document.getElementById("slideImage").addEventListener("mouseenter", MouseEnter);
+document.getElementById("slideImage").addEventListener("mouseleave", MouseLeave);
 	
-
+function 
     //-------------------------------------------------
 
 let countDownDate = new Date("Aug 2, 2023 20:00:00").getTime();
